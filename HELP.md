@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The JVM level was changed from '15' to '1.8', review the [JDK Version Range](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range) on the wiki for more details.
+* The JVM level was changed from '19' to '1.8', review the [JDK Version Range](https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-Versions#jdk-version-range) on the wiki for more details.
 * The original package name 'cn.acecandy.nas-scraper' is invalid and this project uses 'cn.acecandy.nasscraper' instead.
 
 # Getting Started
@@ -10,7 +10,7 @@ The following was discovered as part of building this project:
 For further reference, please consider the following sections:
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.3.7.RELEASE/maven-plugin/)
+* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.7.6/maven-plugin/)
 * [MVC 样例工程](https://github.com/alibaba/spring-webmvc-support)
 * [Spring Web](https://docs.spring.io/spring-boot/docs/2.6.11/reference/htmlsingle/#web)
 * [Thymeleaf](https://docs.spring.io/spring-boot/docs/2.6.11/reference/htmlsingle/#web.servlet.spring-mvc.template-engines)
