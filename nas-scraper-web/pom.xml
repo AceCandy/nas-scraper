@@ -3,7 +3,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>cn.acecandy</groupId>
+        <groupId>cn.acecandy.git</groupId>
         <artifactId>nas-scraper</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -21,13 +21,13 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>cn.acecandy</groupId>
-            <artifactId>nas-scraper-model</artifactId>
+            <groupId>cn.acecandy.git</groupId>
+            <artifactId>nas-scraper-api</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>cn.acecandy</groupId>
-            <artifactId>nas-scraper-service</artifactId>
+            <groupId>cn.acecandy.git</groupId>
+            <artifactId>nas-scraper-dao</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>

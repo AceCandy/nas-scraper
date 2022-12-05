@@ -16,6 +16,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nas-scraper" options="-parameters" />
       <module name="nas-scraper-model" options="-parameters" />
       <module name="nas-scraper-service" options="-parameters" />
       <module name="nas-scraper-web" options="-parameters" />
