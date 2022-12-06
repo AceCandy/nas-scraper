@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 import cn.acecandy.git.nasscraper.dao.dataobject.UserDO;
 import cn.acecandy.git.nasscraper.dao.mapper.UserMapper;
-import cn.acecandy.git.nasscraper.api.UserService;
-import cn.acecandy.git.nasscraper.api.model.UserModel;
+import cn.acecandy.git.nasscraper.model.UserModel;
+import cn.acecandy.git.nasscraper.service.UserService;
 
 /**
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>

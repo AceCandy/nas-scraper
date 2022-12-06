@@ -18,8 +18,9 @@ package cn.acecandy.git.nasscraper.dao.mapper;
 
 import java.util.List;
 
-import cn.acecandy.git.nasscraper.mybatis.entity.MybatisDemoUser;
 import org.apache.ibatis.annotations.Mapper;
+
+import cn.acecandy.git.nasscraper.dao.entity.MybatisDemoUser;
 
 /**
  * 指定这是一个操作数据库的mapper

@@ -1,7 +1,8 @@
 package cn.acecandy.git.nasscraper.dao.data;
 
-import cn.acecandy.git.nasscraper.jacksondemo.view.View;
 import com.fasterxml.jackson.annotation.JsonView;
+
+import cn.acecandy.git.nasscraper.dao.view.View;
 
 public class User {
 

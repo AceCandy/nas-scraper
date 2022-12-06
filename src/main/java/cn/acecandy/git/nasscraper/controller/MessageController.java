@@ -2,16 +2,17 @@ package cn.acecandy.git.nasscraper.controller;
 
 import java.util.List;
 
-import cn.acecandy.git.nasscraper.jacksondemo.data.Message;
-import cn.acecandy.git.nasscraper.jacksondemo.view.View;
-import com.fasterxml.jackson.annotation.JsonView;
-
-import cn.acecandy.git.nasscraper.jacksondemo.service.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.fasterxml.jackson.annotation.JsonView;
+
+import cn.acecandy.git.nasscraper.dao.data.Message;
+import cn.acecandy.git.nasscraper.dao.view.View;
+import cn.acecandy.git.nasscraper.service.MessageService;
 
 @RestController
 public class MessageController {
@@ -36,9 +37,8 @@ public class MessageController {
 
     @RequestMapping("/{id}")
     public Message getMessage(@PathVariable Long id) {
-		return this.messageService.get(id);
+        return this.messageService.get(id);
     }
-
 
     @RequestMapping(value = "/save")
     public String save(@RequestParam String file) {

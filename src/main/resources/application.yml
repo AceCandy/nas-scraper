@@ -23,9 +23,9 @@ spring:
   sql:
     init:
       #创建表的MySql语句位置
-      schema-locations: classpath:schema.sql
+      schema-locations: classpath:sql/schema.sql
       #插入数据的MySql语句的位置
-      data-locations: classpath:data.sql
+      data-locations: classpath:sql/data.sql
 
 #下面这些内容是为了让MyBatis映射
 #指定Mybatis的Mapper文件

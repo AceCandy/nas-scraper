@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import cn.acecandy.git.nasscraper.api.UserService;
-import cn.acecandy.git.nasscraper.api.model.UserModel;
+import cn.acecandy.git.nasscraper.model.UserModel;
+import cn.acecandy.git.nasscraper.service.UserService;
 
 /**
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
